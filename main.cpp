@@ -1,8 +1,43 @@
 #include <iostream>
 using namespace std;
 
+
+
+/*
+deviding the sape ibnto 4 parts
+n=4
+...*         i=0
+..*.  *      i=1
+.*..  .*     i=2
+*...  ..*    i=3
+
+
+m=n-1=3
+.*..  .*     i=0
+..*.  *      i=1
+...*         i=2
+
+
+n=5
+....*
+...*.  *
+..*..  .*
+.*...  ..*
+*....  ...*
+
+m=4
+.*...  ..*   i=0  space=m-i-2
+..*..  .*    i=1  
+...*.  *     i=2
+....*        i=3
+*/
+
+
+
+
+
 int main() {
-    int n=4; cin >>n;
+    int n; cin >>n;
 
     //first half    n lines
     for(int i=0;i<n;i++){
