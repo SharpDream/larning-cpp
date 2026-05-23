@@ -4,7 +4,7 @@ using namespace std;
 
 
 /*
-deviding the sape ibnto 4 parts
+deviding the shape into 4 parts
 n=4
 ...*         i=0
 ..*.  *      i=1
